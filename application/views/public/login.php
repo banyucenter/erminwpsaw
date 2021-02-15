@@ -15,7 +15,7 @@
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang!</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Welcome!</h1>
                     <p>Metode WP-SAW v.1</p> 
                   </div>
                   <form class="user" action="<?php echo base_url(). 'login/aksi_login'; ?>" method="post" >

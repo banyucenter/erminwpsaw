@@ -1,20 +1,20 @@
 <?php 
  
 class ModelWP extends CI_Model{
-	function tampil_data(){
-		return $this->db->get('kriteria');
+	  function tampil_data(){
+	 	   return $this->db->get('kriteria');
     }
 
     function tampil_data_pangkat(){
-		return $this->db->get('v_pangkat_wp');
+		   return $this->db->get('v_pangkat_wp');
     }
 
     function tampil_data_bobot(){
-		return $this->db->get('v_total_bobot_wp');
+		  return $this->db->get('v_total_bobot_wp');
     }
 
     function tampil_data_total_pangkat(){
-		return $this->db->get('v_total_pangkat_wp');
+		  return $this->db->get('v_total_pangkat_saw');
     }
 
     function tampil_data_alternatif(){

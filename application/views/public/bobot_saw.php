@@ -48,7 +48,7 @@
                   <?php
                   foreach($total_pangkat as $u){ 
                     ?>
-                  <td><h3><?php echo $u->total_pangkat_wp ?></h3></td>
+                  <td><h3><?php echo $u->total_pangkat ?></h3></td>
                   <?php } ?>
                 </tr>
               </tbody>
